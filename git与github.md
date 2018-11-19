@@ -1,3 +1,4 @@
+第一次作业：
 Git的主要功能
       Git是一个分布式版本控制系统，操作命令包括：clone，pull，push,branch ,merge ,push,rebase，Git擅长的是程序代码的版本化管理。
       
@@ -16,3 +17,13 @@ GitHub可以托管各种git库，并提供一个web界面，但与其它像 Sour
 已经有人将GitHub称为代码玩家的MySpace。
 github基于git，可以说是git的衍生物。
 
+第二次作业：
+使用Git开始工作，需要有本地工作区、暂存区、本地仓库和远程仓库。
+将本地操作同步到github上的流程：
+首先建一个文档使文档和git相关联，使用Git Bash在里面输入git clone 再加上github项目的网址
+文件在本地工作区时要先查找变动再将其添加到暂存区里，要将文件提交到本地仓库里再添加REDAME，
+利用commit（要备注）、push将文件推送到远程仓库里
+将github上的项目同步到本地的流程：
+利用fetch指令，但是fetch之后会发现在本地文件夹中找不到想同步的项目，因为其还存在在暂存区中，
+所以得合并分支，最后才能再本地里看到。
+还可以使用pull指令，pull指令更加简单
